@@ -17,9 +17,9 @@ for product in items:
     store.append(product.strip().split(","))
 
 IDs = [x for x in range(len(items))]
-items = [(item[1]).lower() for item in store]
-quantities = [int(item[2]) for item in store]
-prices = [float(item[3]) for item in store]
+items = [(item[0]).lower() for item in store]
+quantities = [int(item[1]) for item in store]
+prices = [float(item[2]) for item in store]
 data.close()
 
 basket = []
@@ -84,7 +84,7 @@ def admin():
         elif selection == "2":
             addItem()
         elif selection == "3":
-            changeQuantity(1, 200)
+            changeQuantity()
         elif selection == "4":
             removeItem()
         elif selection == "5":
@@ -143,6 +143,7 @@ def addItem():
     newPrice = float(input("Please Enter the price of the item you added: "))
     prices.append(newPrice)
     print("item added successfully")
+    update()
 
 # Removes an item from the item list
 def removeItem():
@@ -161,15 +162,15 @@ def checkItem():
         print("No, " + itemCheck + " on the item list")
 
 # Checks if an item exists in the item list
-def changeQuantity(id, new_quantity):
+def changeQuantity():
+    id = int(input('enter id: '))
+    new_quantity = int(input('enter quantity: '))
     if id in range(len(quantities)):
         quantities[id] = new_quantity
         print('%s quantity is changed to % d' % (items[id], new_quantity))
     else:
         print('No item with such Id')
-
-    ids = input("what is the ID of the item you wish to change: ")
-    quantity = input("what is the quantity of the item you wish to change: ")
+    update()
 
 # Shows the number of items in the item list
 def listLength():
@@ -221,7 +222,7 @@ def update():
     sn = ''
     for i,q,p in zip(items,quantities,prices):
         sn += ','.join((i,str(q),str(p))) + '\n'
-    with open('store.csv','w') as f:
+    with open('Stock.txt','w') as f:
         f.write(sn)
     f.close()
 

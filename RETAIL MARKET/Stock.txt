@@ -1,30 +1,32 @@
-1,Sugar,131,50
-2,Bread (sliced),311,200
-3,Bread (unsliced),229,150
-4,Egg,545,50
-5,Three crown (tin),201,150
-6,Peak milk (tin),230,120
-7,Peak milk (sachet),791,50
-8,Bournvita (sachet),611,50
-9,Milo (tin),367,500
-10,Peak milk (Large Sachet),889,700
-11,Milo (Large Sachet),934,700
-12,Bournvita (Large Sachet),758,100
-13,Custard (small sachet),383,200
-14,Corn flakes (small sachet),647,150
-15,Golden morn (small sachet),121,100
-16,Detergent (small Wawu),198,120
-17,Detergent (small Aerial),354,115
-18,Detergent (Big Wawu),323,200
-19,Detergent (Big Aerial),222,250
-20,Corn flakes (big sachet),341,750
-21,Golden morn (Large sachet),458,650
-22,Sprite (small),134,80
-23,Pepsi (small),674,80
-24,Fanta (small),757,80
-25,Lacasera (small),127,80
-26,Sprite (big),956,150
-27,Pepsi (big),374,150
-28,Fanta (big),267,150
-29,Lacasera (big),786,150
-30,Coke (big),546,150
+sugar,131,50.0
+bread (sliced),311,200.0
+bread (unsliced),500,150.0
+egg,545,50.0
+three crown (tin),201,150.0
+peak milk (tin),230,120.0
+peak milk (sachet),791,50.0
+bournvita (sachet),611,50.0
+milo (tin),367,500.0
+peak milk (large sachet),889,700.0
+milo (large sachet),934,700.0
+bournvita (large sachet),758,100.0
+custard (small sachet),383,200.0
+corn flakes (small sachet),647,150.0
+golden morn (small sachet),121,100.0
+detergent (small wawu),198,120.0
+detergent (small aerial),354,115.0
+detergent (big wawu),323,200.0
+detergent (big aerial),222,250.0
+corn flakes (big sachet),341,750.0
+golden morn (large sachet),458,650.0
+sprite (small),134,80.0
+pepsi (small),674,80.0
+fanta (small),757,80.0
+lacasera (small),127,80.0
+sprite (big),956,150.0
+pepsi (big),374,150.0
+fanta (big),267,150.0
+lacasera (big),786,150.0
+coke (big),546,150.0
+b29,190,100.0
+canoe,200,120.0
