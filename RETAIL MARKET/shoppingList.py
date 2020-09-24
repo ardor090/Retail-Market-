@@ -197,7 +197,7 @@ def display_cart():
             done = input('Are you done selecting items? (no to select again): ').lower()
     print('alright sir here are the items you selected with their prices\n')
     for i,it,p in zip(basket,map(items.__getitem__,basket),map(prices.__getitem__,basket)):
-        print('{:<2d}{:<15}{:>4}'.format(i,it,p))
+        print('{:<5d}{:<25}{:>10}'.format(i,it,p))
     #unit prices
     t_prices = list(map(prices.__getitem__, basket))
     #change unit to amount
@@ -205,9 +205,9 @@ def display_cart():
             t_prices[i] *= quans[i]
     vat = 0.0
     bonus = 0.0
-    if sum(quans) < 5:
+    if len(basket) < 5:
         vat = 0.2 * sum(t_prices)
-    elif sum(quans)> 10:
+    elif len(basket)> 10:
         vat = 0.3* sum(t_prices)
         if min(t_prices) >= 100:
             bonus = 800.0

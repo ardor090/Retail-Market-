@@ -1,15 +1,15 @@
 sugar,131,50.0
-bread (sliced),311,200.0
-bread (unsliced),500,150.0
-egg,545,50.0
-three crown (tin),201,150.0
-peak milk (tin),230,120.0
-peak milk (sachet),791,50.0
-bournvita (sachet),611,50.0
-milo (tin),367,500.0
-peak milk (large sachet),889,700.0
-milo (large sachet),934,700.0
-bournvita (large sachet),758,100.0
+bread (sliced),303,200.0
+bread (unsliced),497,150.0
+egg,544,50.0
+three crown (tin),198,150.0
+peak milk (tin),227,120.0
+peak milk (sachet),790,50.0
+bournvita (sachet),610,50.0
+milo (tin),366,500.0
+peak milk (large sachet),884,700.0
+milo (large sachet),931,700.0
+bournvita (large sachet),754,100.0
 custard (small sachet),383,200.0
 corn flakes (small sachet),647,150.0
 golden morn (small sachet),121,100.0
